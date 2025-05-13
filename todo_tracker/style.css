@@ -1,1 +1,40 @@
 
+body {
+  font-family: sans-serif;              
+  background: #e0f7fa;                  
+  display: flex;                        /* Uses Flexbox for layout */
+  justify-content: center;             /* Centers the content horizontally */
+  align-items: center;                 /* Centers the content vertically */
+  height: 100vh;                        /* Full height of the viewport */
+}
+
+/* Container box for the main content */
+.container {
+  background: white;                    
+  padding: 2rem;                        
+  border-radius: 10px;                  /* Rounded corners */
+  width: 300px;                         
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+/* Styling for all input fields */
+input {
+  width: 80%;                           /* Takes up 80% of the container width */
+  padding: 0.5rem;                      /* Inner spacing for better readability */
+  margin-bottom: 1rem;                 /* Space below the input */
+}
+
+/*styling for all input buttons*/
+button {
+  padding: 0.5rem;                      /* Inner padding */
+  background: #00b2b2;                 
+  color: white;                         /* White text on the button */
+  border: none;                         /* No default border */
+}
+
+/* Style for unordered list */
+ul {
+  list-style-type: none;               /* Removes bullet points from the list */
+  padding: 0;                          /* Removes default padding */
+}
+
